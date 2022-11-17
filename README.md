@@ -33,4 +33,5 @@ This is Git tutorial
         dir/ --> It will ignore all folders or subfolder name like 'dir'.(only ignore these directory and files that are present in this directory not folders/directory.)
         /dir/ --> It will ignore dir folder only present in current directory.
 ## git diff
-    It will show files difference or changes in file in between modified and staged files
+    It will show files difference or changes in file in between modified and staged files.
+    git diff --staged --> It will compare staged files with last commited files
