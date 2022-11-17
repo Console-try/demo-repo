@@ -59,3 +59,9 @@ This is Git tutorial
 
 ## git commit --amend
     This will ammend your new staged changed to last commit & edit last commit
+## git restore --staged `fileName`:
+    This will remove staged file to modified.
+## git checkout -- `fileName`:
+    It will restore file which is modified to previous version (It will not worked if file is staged)
+## git checkout -f:
+    It will change all modified files to last commit.(You will lose all modified data)
