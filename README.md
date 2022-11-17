@@ -13,7 +13,7 @@ This is Git tutorial
     This will delete .git folder.
     When .git folder is delete there is no git log or other things.
 
-## git add <filename>
+## git add `filename`
     This will add file to the stage for commit.
     If you write 'git add .' then this will add all modified files and untracked files to staged file.
 ## git commit
@@ -36,10 +36,10 @@ This is Git tutorial
 ## git diff
     It will show files difference or changes in file in between modified and staged files.
     git diff --staged --> It will compare staged files with last commited files
-## git rm <fileName>
+## git rm `fileName`
     It will remove file and automatically staged it.
-## git mv <currentFileName> <newFileName>
+## git mv `currentFileName` `newFileName`
     It will rename the file and automatically staged it.
 
-## git rm --cached <fileName>
+## git rm --cached `fileName`
     It will remove file from tracking any more.
