@@ -16,7 +16,6 @@ This is Git tutorial
 ## git add <filename>
     This will add file to the stage for commit.
     If you write 'git add .' then this will add all modified files and untracked files to staged file.
-
 ## git commit
     this will make all staged file as commit.
     git commit -m "Title of commit" -m "Description of Commit"
@@ -33,3 +32,5 @@ This is Git tutorial
 ### -----ignore folders or Directory
         dir/ --> It will ignore all folders or subfolder name like 'dir'.(only ignore these directory and files that are present in this directory not folders/directory.)
         /dir/ --> It will ignore dir folder only present in current directory.
+## git diff
+    It will show files difference or changes in file in between modified and staged files
