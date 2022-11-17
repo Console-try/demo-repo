@@ -23,4 +23,10 @@ This is Git tutorial
 ## git log
     this will list all previous history of the project of commits
     press 'q' for quit from this mode
-
+        
+## git ignore (this is not command)
+    make a file .gitignore
+        All files that you want to ignore from tracking can listed here in .gitignore file
+    ### add file for ignore
+        text.log --> It will ignore a file name as text.log
+        *.exe --> It will ignore all files which have .exe extensino
