@@ -43,3 +43,19 @@ This is Git tutorial
 
 ## git rm --cached `fileName`
     It will remove file from tracking any more.
+## git log -p
+    It will give detailed log of old commits.
+    `git log -p -n` n = number of recents commits you want to see.
+## git log --stat
+    It will give brief details of old commits.
+## git log --pretty=oneline
+    It will give one line details of old commits.
+    `git log --pretty=short` will give short details of old commits
+## git log --since=2.days
+    It will give all last 2 days commits.
+    `2.days,2.weeks,2.months,2.years` You can get all these type of details
+## git log --pretty=format:"here you can add any type of format"
+----- [Git pretty Log formats](https://git-scm.com/docs/pretty-formats "https://git-scm.com/docs/pretty-formats") --> you can go this website and check types of formats.
+
+## git commit --amend
+    This will ammend your new staged changed to last commit & edit last commit
