@@ -36,3 +36,10 @@ This is Git tutorial
 ## git diff
     It will show files difference or changes in file in between modified and staged files.
     git diff --staged --> It will compare staged files with last commited files
+## git rm <fileName>
+    It will remove file and automatically staged it.
+## git mv <currentFileName> <newFileName>
+    It will rename the file and automatically staged it.
+
+## git rm --cached <fileName>
+    It will remove file from tracking any more.
