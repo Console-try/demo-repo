@@ -20,4 +20,7 @@ This is Git tutorial
 ## git commit
     this will make all staged file as commit.
     <code>-m <Titla of commit> -m <Description of Comit></code>
+## git log
+    this will list all previous history of the project of commits
+    press 'q' for quit from this mode
 
