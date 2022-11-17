@@ -19,6 +19,7 @@ This is Git tutorial
 ## git commit
     this will make all staged file as commit.
     git commit -m "Title of commit" -m "Description of Commit"
+    git commit -a -m "Title of commit" -m "Description of commit" --> This will commit all modified files direct without go to staged.
 ## git log
     this will list all previous history of the project of commits
     press 'q' for quit from this mode
