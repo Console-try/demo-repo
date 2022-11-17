@@ -65,3 +65,13 @@ This is Git tutorial
     It will restore file which is modified to previous version (It will not worked if file is staged)
 ## git checkout -f:
     It will change all modified files to last commit.(You will lose all modified data)
+## git remote add origin `linkOfRepository`:
+    In this command `origin` is just name you can set it as you want.
+    but after makeing it remote please set ssh key to your account on any git host website(github)
+## git remote -v:
+    In this command you can see where you will push or pull.
+## git push -u origin master:
+    It will push all files to github repository which are commited.
+## git config --global alias.newCommandName "old command"
+`git config --global alias.st "status"`
+    after this command you can use git st instead of git status.
