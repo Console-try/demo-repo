@@ -30,3 +30,6 @@ This is Git tutorial
 ### -----add file for ignore
         text.log --> It will ignore a file name as text.log
         *.exe --> It will ignore all files which have .exe extensino
+### -----ignore folders or Directory
+        dir/ --> It will ignore all folders or subfolder name like 'dir'.(only ignore these directory and files that are present in this directory not folders/directory.)
+        /dir/ --> It will ignore dir folder only present in current directory.
