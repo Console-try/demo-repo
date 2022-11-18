@@ -43,6 +43,7 @@ This is Git tutorial
 
 ## git rm --cached `fileName`
     It will remove file from tracking any more.
+
 ## git log -p
     It will give detailed log of old commits.
     `git log -p -n` n = number of recents commits you want to see.
@@ -59,6 +60,7 @@ This is Git tutorial
 
 ## git commit --amend
     This will ammend your new staged changed to last commit & edit last commit
+
 ## git restore --staged `fileName`:
     This will remove staged file to modified.
 ## git checkout -- `fileName`:
@@ -70,26 +72,32 @@ This is Git tutorial
     but after makeing it remote please set ssh key to your account on any git host website(github)
 ## git remote -v:
     In this command you can see where you will push or pull.
-## git push -u origin master:
+## git push -u origin `branchName`:
     It will push all files to github repository which are commited.
+## gir push -d origin `branchName`:
+    To delete remote branch.
+
 ## git config --global alias.newCommandName "old command"
 `git config --global alias.st "status"`
     after this command you can use git st instead of git status.
+
 ## git checkout -b `branchName`:
     It will create new branch and switch to the new branch.
 ## git checkout `branchName`:
     This will switched to the branch you want.
-## git checkout -b `branchName`:
-    It will create new branch and switch to the new branch.
-## git checkout `branchName`:
-    This will switched to the branch you want.
 
+## git merge `branchName`:
+    This will merge given branch to the branch you are currently peresent in.
 
+## git branch:
+    Gives the list of branches.
+## git branch -v:
+    Gives last commit of all branches.
+## git branch --merged:
+    Gives the list of all branches that are merged.
+## git branch --no-merged:
+    Gives the list of all branches that are not merged
 
-
-
-
-
-
-
-
+## git branch -d `branchName`:
+    To delete a branch.(gives error if branch is not merged yet)
+use `-D` instead of `-d` for delete without error.
