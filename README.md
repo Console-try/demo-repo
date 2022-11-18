@@ -75,3 +75,21 @@ This is Git tutorial
 ## git config --global alias.newCommandName "old command"
 `git config --global alias.st "status"`
     after this command you can use git st instead of git status.
+## git checkout -b `branchName`:
+    It will create new branch and switch to the new branch.
+## git checkout `branchName`:
+    This will switched to the branch you want.
+## git checkout -b `branchName`:
+    It will create new branch and switch to the new branch.
+## git checkout `branchName`:
+    This will switched to the branch you want.
+
+
+
+
+
+
+
+
+
+
